@@ -5,7 +5,7 @@
 ![Gemini API](https://img.shields.io/badge/Google%20Gemini-API-1E1B4B)
 ![License](https://img.shields.io/badge/License-MIT-64748B)
 
-**Application web multi-agent pour le traitement et l'analyse intelligente de documents d'entreprise** — résumé fiabilisé, traduction multilingue, chatbot documentaire (RAG) et assistant vocal, développée dans le cadre d'un stage de fin d'études chez MOVIXIA CONSULTING.
+Application web multi-agent pour le traitement et l'analyse intelligente de documents d'entreprise — résumé fiabilisé, traduction multilingue, chatbot documentaire (RAG) et assistant vocal, développée dans le cadre d'un stage de fin d'études chez MOVIXIA CONSULTING.
 
 > Un document entre, un résumé vérifié, traduit et interrogeable en ressort — sans jamais sortir du contenu réel du document.
 
@@ -25,15 +25,15 @@
 
 ## Fonctionnalités
 
-- **Extraction multi-format** — import de fichiers `.txt`, `.pdf` ou `.docx`, normalisés automatiquement en texte.
-- **Résumé fiabilisé par boucle qualité** — un agent Rédacteur génère le résumé, un agent Critique l'évalue sur 10 et le renvoie en correction si le score est insuffisant (jusqu'à 3 itérations).
-- **Personnalisation du résumé** — choix du ton (synthétique, détaillé technique, formel) et édition manuelle avant export ou envoi.
-- **Traduction automatique** dans 6 langues (allemand, anglais, espagnol, italien, portugais, arabe).
-- **Chatbot documentaire (RAG)** — questions-réponses ancrées dans le contenu réel du document via recherche par similarité vectorielle, sans hallucination.
-- **Assistant vocal bidirectionnel** — question à l'oral (micro ou fichier audio) et réponses lues à voix haute, dans la langue choisie.
-- **Export** du résumé et de la traduction en Word (`.docx`) et PDF.
-- **Authentification sécurisée** (mots de passe hachés SHA-256) et diffusion des résultats par e-mail aux collaborateurs, avec identité et signature automatiques.
-- **Historique et tableau de bord** — traçabilité de l'activité et statistiques d'usage (Plotly, pandas).
+- Extraction multi-format— import de fichiers `.txt`, `.pdf` ou `.docx`, normalisés automatiquement en texte.
+- Résumé fiabilisé par boucle qualité — un agent Rédacteur génère le résumé, un agent Critique l'évalue sur 10 et le renvoie en correction si le score est insuffisant (jusqu'à 3 itérations).
+- Personnalisation du résumé — choix du ton (synthétique, détaillé technique, formel) et édition manuelle avant export ou envoi.
+- Traduction automatique dans 6 langues (allemand, anglais, espagnol, italien, portugais, arabe).
+- Chatbot documentaire (RAG) — questions-réponses ancrées dans le contenu réel du document via recherche par similarité vectorielle, sans hallucination.
+- Assistant vocal bidirectionnel — question à l'oral (micro ou fichier audio) et réponses lues à voix haute, dans la langue choisie.
+- Export du résumé et de la traduction en Word (`.docx`) et PDF.
+- Authentification sécurisée (mots de passe hachés SHA-256) et diffusion des résultats par e-mail aux collaborateurs, avec identité et signature automatiques.
+- Historique et tableau de bord— traçabilité de l'activité et statistiques d'usage (Plotly, pandas).
 
 ## Architecture
 
@@ -116,9 +116,9 @@ cp .env.example .env          # puis renseigne tes propres clés dans .env
 
 Le fichier `.env` doit contenir :
 ```
-GOOGLE_API_KEY=ta_cle_gemini
-GMAIL_ADDRESS=ton_compte@gmail.com
-GMAIL_APP_PASSWORD=ton_mot_de_passe_application
+GOOGLE_API_KEY=la_cle_gemini
+GMAIL_ADDRESS=le_compte@gmail.com
+GMAIL_APP_PASSWORD=le_mot_de_passe_application
 ```
 
 ```bash
@@ -138,13 +138,13 @@ Disponible en local pour le moment — mise en ligne prévue prochainement.
 
 ## Contexte
 
-Projet réalisé dans le cadre d'un stage de fin d'études (4ème année, Ingénierie Informatique — option Intelligence Artificielle & Sciences de Données, EMSI Rabat), au sein de MOVIXIA CONSULTING, sous la supervision de M. Mhamed Idrissi, Ingénieur Full Stack.
+Projet réalisé dans le cadre d'un stage de fin d'études (4ème année, Ingénierie Informatique — option Intelligence Artificielle & Sciences de Données, EMSI Rabat), au sein de MOVIXIA CONSULTING, sous la supervision de M. Mohamed Idrissi, Ingénieur Full Stack.
 
 ## Auteur
 
 Loubna Rhoufal
-[LinkedIn](#) · [Portfolio](#) · rflloubna@gmail.com
+https://www.linkedin.com/in/loubna-rhoufal-419204354/[LinkedIn] · https://github.com/rflloubna-ui [github] · rflloubna@gmail.com
 
-## Licence
+## Licences
 
 Ce projet est distribué sous licence MIT — voir le fichier `LICENSE`.
