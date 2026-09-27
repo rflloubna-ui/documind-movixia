@@ -127,7 +127,7 @@ streamlit run app.py
 
 ## Démo en ligne
 
-Une version de démonstration est disponible ici : **[lien à ajouter après déploiement]**
+Disponible en local pour le moment — mise en ligne prévue prochainement.
 
 ## Limites actuelles
 
@@ -138,11 +138,11 @@ Une version de démonstration est disponible ici : **[lien à ajouter après dé
 
 ## Contexte
 
-Projet réalisé dans le cadre d'un stage de fin d'études (4ème année, Ingénierie Informatique — option Intelligence Artificielle & Sciences de Données, EMSI Rabat), au sein de **MOVIXIA CONSULTING**, sous la supervision de M. Mhamed Idrissi, Ingénieur Full Stack.
+Projet réalisé dans le cadre d'un stage de fin d'études (4ème année, Ingénierie Informatique — option Intelligence Artificielle & Sciences de Données, EMSI Rabat), au sein de MOVIXIA CONSULTING, sous la supervision de M. Mhamed Idrissi, Ingénieur Full Stack.
 
 ## Auteur
 
-**Loubna Rhoufal**
+Loubna Rhoufal
 [LinkedIn](#) · [Portfolio](#) · rflloubna@gmail.com
 
 ## Licence
