@@ -1,0 +1,10 @@
+google-generativeai
+streamlit
+pypdf
+python-docx
+plotly
+numpy
+python-dotenv
+fpdf2
+pandas
+gTTS
